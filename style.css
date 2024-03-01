@@ -81,8 +81,19 @@ li:hover {
   max-width: 600px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
 
+}
 
+.waves {
+  transform: rotate(180deg);
+}
+
+#test {
+  margin-bottom: -1px;
+}
 
 
 
