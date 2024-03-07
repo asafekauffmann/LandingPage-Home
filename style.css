@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html, body {
+html, body, h1, h2, h3, h4, h5, h6 p {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -13,6 +13,16 @@ body {
   background-color: black;
 }
 
+h1 {
+  font-size: 64px;
+  font-weight: 800;
+  color: white;
+  
+}
+
+p {
+  color: white;
+}
 
 a {
   text-decoration: none;
@@ -25,6 +35,28 @@ a:hover {
 
 input {
   padding: 0px 15px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  font-style: normal;
+  font-weight: 300;
+  font-style: normal;
+  padding-right: 35px;
+}
+
+li {
+  color: white;
+  margin: 0px;
+}
+
+li:hover {
+  color:#8658E4;
+  cursor: pointer;
 }
 
 .purple {
@@ -52,32 +84,32 @@ input {
   height: 45px;
 }
 
-
-ul {
-  display: flex;
-  list-style: none;
-}
-
-li {
-  font-style: normal;
-  font-weight: 300;
-  font-style: normal;
-  padding-right: 35px;
-}
-
-li {
-  color: white;
-  margin: 0px;
-}
-
-li:hover {
-  color:#8658E4;
-  cursor: pointer;
-}
-
 .blob {
-  position: relative;
+  position: absolute;
   max-width: 600px;
+  top: 100px;
+}
+
+.modelo1 {
+  width: 50%;
+  text-align: left;
+  padding-left: 192px;
+}
+
+.modelo2 {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.containerPrincipal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 400px;
+  width: 100%;
 }
 
 .container {
@@ -108,8 +140,8 @@ li:hover {
 }
 
 #contentSize {
+  text-align: left;
   padding-bottom: 22px;
-  text-align: center;
 }
 
 .containerSecondary {
@@ -120,10 +152,6 @@ li:hover {
   padding: 26px 240px;
   text-align: center;
 }
-
-
-
-
 
 
 
