@@ -87,12 +87,23 @@ li:hover {
 
 }
 
+.containerColor {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF0066;
+  padding: 0px 80px;
+}
+
 .waves {
   transform: rotate(180deg);
 }
 
 #test {
   margin-bottom: -1px;
+  margin-top: -1px;
 }
 
 
@@ -100,6 +111,10 @@ li:hover {
 @media only screen and (max-width: 768px)  {
   .navigation {
     display: none;
+  }
+
+  .containerColor {
+    padding: 0px 40px;
   }
 }
 
